@@ -4,6 +4,7 @@
     border: 7px solid black;
     margin: 30px auto;
     overflow:hidden;
+    background-color:red;
 }
 
 #contenedor_personaje2{
