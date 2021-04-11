@@ -1,0 +1,69 @@
+.contenedor_carta1{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    height: auto;
+}
+
+.titulo_carta1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.carta1{
+    text-align:justify;
+    width: 65%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.contenedor_carta2{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    height: auto;
+}
+
+.titulo_carta2{
+    font-size: 50px;
+    color:yellow;
+    text-decoration: black dashed;
+    text-align: center;
+}
+
+.carta2{
+    font-size: 18px;
+    display: inline-block;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+
+
+/*--<------------------------------------------------------CARTA 3+++----------------------------------------------------------*/
+
+.contenedor_carta3{
+    width: 90%;
+    margin:20px auto ;
+    height: auto;
+}
+
+.titulo_carta3{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
+
+.carta3{
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    display: inline-block;
+    text-align: justify;
+}
+
+.finalCartas{
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+}
