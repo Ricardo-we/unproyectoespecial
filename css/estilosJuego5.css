@@ -1,0 +1,43 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.canvas1{
+    width: 500px;
+    height: 500px;
+    margin-left: 26%;
+    background-color: red;
+}
+
+.contBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 400px;
+ 
+    margin: auto;
+}
+
+.btn{
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    font-size: 35px;
+}
+
+
+
+.cont1{
+    display: flex;
+    flex-direction: row;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: row;
+}
+
+#puntos{
+    font-size: 20px;
+}
