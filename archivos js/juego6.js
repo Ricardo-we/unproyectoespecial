@@ -5,6 +5,8 @@ let time = 40;
 
 let pointer = document.getElementById("puntos");
 let puntos = 0;
+ 
+let gameArea = document.getElementById("gameArea")
 
 
 
@@ -12,13 +14,13 @@ function sumarPuntos(){
      puntos++;
      pointer.innerHTML="Puntos: <b>"+ puntos + "</b>";
      
-     randNum = Math.round(Math.random()*497);
-     randNum2 = Math.round(Math.random()*697);
+     randNum = Math.round( Math.random()*497 );
+     randNum2 = Math.round( Math.random()*697 );
 
      jugador1.style.marginTop = randNum +"px";
      jugador1.style.marginLeft = randNum2 +"px";
 
-     if( puntos == 30 ){
+     if( puntos==30 ){
         alert("Ganaste Mi vida!!!:´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´3");
         puntos = 0;
         time = 40;
@@ -38,9 +40,10 @@ function tiempo(){
          time = 40;
          jugador1.style.margin = 0;
      }
+   
+
 }
 
 
-
-jugador1.addEventListener("click",sumarPuntos);
-setInterval(tiempo, 1000);
+jugador1.addEventListener( "click",sumarPuntos );
+setInterval( tiempo, 1000 );
