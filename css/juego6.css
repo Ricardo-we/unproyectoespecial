@@ -1,0 +1,38 @@
+#personaje1{
+    background-image: url(../imagenes/items_juegos/personaje_corazon.png);
+    background-color: gold;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 0.4s;
+    position: absolute;
+}
+
+
+#gameArea{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    background-color: red;
+    border:  5px solid gold;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.contenedorPointer{
+    background-color: gold;
+    margin: auto;
+    width: 700px;
+    height: 50px;
+    border:  5px solid gold;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
