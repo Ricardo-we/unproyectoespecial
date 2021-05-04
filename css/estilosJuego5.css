@@ -14,8 +14,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 400px;
- 
+    width: 100%;
+    text-align: center;
     margin: auto;
 }
 
