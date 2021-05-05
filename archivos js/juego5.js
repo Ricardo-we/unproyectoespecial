@@ -101,7 +101,6 @@ class Item {
   var user = new User();
   var item = new Item();
   item.randomPosition();
-  var puntero = 0;
 
   setInterval(function(){
 
