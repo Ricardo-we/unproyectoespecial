@@ -1,13 +1,20 @@
 .container{
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
 .canvas1{
     width: 500px;
     height: 500px;
-    margin-left: 26%;
+    text-align: center;
     background-color: red;
+}
+
+.canvaCont{
+   width: 500px;
+   height: 500px;
+   margin: auto;
+   background-color: aliceblue;
 }
 
 .contBtn{
@@ -24,6 +31,7 @@
     width: 60px;
     height: 60px;
     font-size: 35px;
+    margin: 30px;
 }
 
 
@@ -40,4 +48,8 @@
 
 #puntos{
     font-size: 20px;
+}
+
+.containerLinks{
+    margin-top: 50px;
 }
