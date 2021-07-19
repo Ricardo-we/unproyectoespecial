@@ -1,0 +1,148 @@
+
+.cartas_title{
+    width: 100%;
+    background-color: gold;
+    font-size: 65px;
+    text-align: center;
+    margin:0px;
+}
+
+
+.contenedor_carta1{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    height: auto;
+}
+
+.titulo_carta1{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.carta1{
+    text-align:justify;
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.contenedor_carta2{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    height: auto;
+}
+
+.titulo_carta2{
+    font-size: 50px;
+    color:yellow;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.carta2{
+    font-size: 18px;
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+
+/*--<------------------------------------------------------CARTA 3+++----------------------------------------------------------*/
+
+.contenedor_carta3{
+    width: 90%;
+    margin:20px auto ;
+    height: auto;
+}
+
+.titulo_carta3{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    background-color: gold;
+    width: 100%;
+}
+
+.carta3{
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    display: inline-block;
+    text-align: justify;
+}
+
+.finalCartas{
+    display: inline-block;
+    height:auto;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+.next{
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+}
+
+.back{
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+}
+
+
+@media (max-width:800px) {
+    *{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .contenedor_carta1{
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+        height: auto;
+    }
+
+    .carta1{
+        text-align:justify;
+        width: 100%;
+        margin: auto;
+        font-size: 18px;
+    }
+
+    .contenedor_carta2{
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+        height: auto;
+    }
+
+    .carta2{
+        font-size: 18px;
+        display: inline-block;
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .contenedor_carta3{
+    width: 100%;
+    margin:20px auto ;
+    height: auto;
+    }
+
+    .carta3{
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    display: inline-block;
+    text-align: justify;
+    }
+
+}

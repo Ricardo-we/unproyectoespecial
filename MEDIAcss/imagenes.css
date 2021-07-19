@@ -1,0 +1,54 @@
+
+.fotos_title{
+    width: 100%;
+    background-color: gold;
+    font-size: 65px;
+    text-align: center;
+    margin:0px;
+}
+
+.contenedorImagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.imgcontainer{
+    width: 40%;
+    height: fit-content;
+    background-color: darkred;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin:auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.imgBig{
+    width: 100%;
+    height: fit-content;
+    background-color: null;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin:auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/*.imagen{
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+}*/
+
+.titulosFotos{
+    color: gold;
+}

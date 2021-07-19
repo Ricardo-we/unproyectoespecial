@@ -1,0 +1,161 @@
+.gameArea1 {
+  background-color: red;
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.plataform {
+  display: inline-block;
+  background-color: black;
+  height: 5px;
+  width: 60%;
+}
+
+.plataform2 {
+  display: inline-block;
+  background-color: black;
+  height: 5px;
+  width: 10%;
+  position: relative;
+  left: 175px;
+}
+
+.plataform3 {
+  display: inline-block;
+  background-color: black;
+  height: 5px;
+  width: 25%;
+}
+
+.plataform4 {
+  display: inline-block;
+  background-color: black;
+  height: 5px;
+  width: 60%;
+  position: relative;
+  left: 90px;
+}
+
+.plataform5 {
+  display: inline-block;
+  background-color: black;
+  height: 5px;
+  width: 40%;
+}
+
+.plataform6 {
+  display: inline-block;
+  background-color: black;
+  height: 5px;
+  width: 50%;
+  position: relative;
+  left: 60px;
+}
+
+#player {
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: gold;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  position: relative;
+  padding: 5px;
+}
+
+#win {
+  position: relative;
+  width: 40px;
+  height: 30px;
+  background-color: gold;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 10px;
+  left: 530px;
+  top: 470px;
+}
+
+#enemy1 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  animation: enemyMove 5s infinite;
+  top: 120px;
+}
+.enemy2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation: enemyMove 5s infinite;
+  top: 1000px;
+  margin-left: 370px;
+}
+.enemyImg {
+  width: 30px;
+  height: 30px;
+}
+@keyframes enemyMove {
+  0% {
+    left: 0px;
+  }
+  10% {
+    left: 60px;
+  }
+  20% {
+    left: 120px;
+  }
+  30% {
+    left: 180px;
+  }
+  40% {
+    left: 240px;
+  }
+  50% {
+    left: 300px;
+  }
+  60% {
+    left: 360px;
+  }
+  70% {
+    left: 420px;
+  }
+  80% {
+    left: 480px;
+  }
+  90% {
+    left: 540px;
+  }
+  100% {
+    left: 600px;
+  }
+}
+
+.plataformCont {
+  width: 600px;
+  position: absolute;
+  top: 720px;
+}
+
+.plataformCont2 {
+  width: 600px;
+  position: absolute;
+  top: 900px;
+}
+
+.controlsCont {
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 700px;
+  left: 1000px;
+}
+
+.btn {
+  font-size: 60px;
+}
